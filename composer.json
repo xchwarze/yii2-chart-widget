@@ -1,0 +1,32 @@
+{
+	"name": "exocet/yii2-chart-widget",
+	"description": "Chart implementation of chartist for yii2 framework",
+	"keywords": ["yii2", "chartist", "charts"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/xchwarze/yii2-chart-widget/issues",
+		"source": "https://github.com/xchwarze/yii2-chart-widget"
+	},
+	"authors": [
+		{
+			"name": "Xchwarze",
+			"email": "xchwarze@gmail.com"
+		}
+	],
+	"prefer-stable": true,
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "~2.0",
+		"bower-asset/chartist": "*",
+		"bower-asset/chartist-plugin-legend-latest": "*"
+	},
+	"autoload": {
+		"psr-4": { "exocet\\yii2\\chart\\": "src" }
+	}
+}
