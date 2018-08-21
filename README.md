@@ -1,13 +1,13 @@
 # yii2-widget-chart
-Wrapper for [CHARTIST.JS](http://gionkunz.github.io/chartist-js/index.html) library.
+Wrapper for [CHARTIST.JS](http://gionkunz.github.io/chartist-js/index.html) library
 
 ## Resources
  * [yii2](https://github.com/yiisoft/yii2) framework
- * [gionkunz/chartist-js](https://github.com/gionkunz/chartist-js).
+ * [gionkunz/chartist-js](https://github.com/gionkunz/chartist-js)
 
 ## Installation
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/)
 
 Either run
 
@@ -91,4 +91,4 @@ echo Chart::widget([
 ```
 
 ## License
-**yii2-widget-chart** is released under MIT license. See bundled [LICENSE](LICENSE) for details.
+**yii2-chart-widget** is released under MIT license. See bundled [LICENSE](LICENSE) for details
